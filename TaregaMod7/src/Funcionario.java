@@ -34,7 +34,7 @@ public class Funcionario {
     }
 
     @Override
-    public String toString() {
+    public String toString() { //possibilita a exibição adequada das informações
         return "Funcionario{" +
                 "empacotador='" + empacotador + '\'' +
                 ", entregador='" + entregador + '\'' +

@@ -5,6 +5,7 @@ public class Cliente {
     private String endereco;
     private int numero;
 
+    // responsavel por criar um novo "cliente".
     public Cliente(int horario, int dataEntrega, String quemRecebe, String endereco, int numero) {
         this.horario = horario;
         this.dataEntrega = dataEntrega;
@@ -46,7 +47,7 @@ public class Cliente {
     }
 
     @Override
-    public String toString() {
+    public String toString() { //possibilita a exibição adequada das informações
         return "Cliente{" +
                 "horario=" + horario +
                 ", dataEntrega=" + dataEntrega +
