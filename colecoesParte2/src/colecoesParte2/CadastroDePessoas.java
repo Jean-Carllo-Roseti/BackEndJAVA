@@ -6,10 +6,7 @@ import java.util.Scanner;
 
 public class CadastroDePessoas {
     public static void main(String[] args) {
-        Registro();
-    }
-    
-    private static void Registro() {
+    	
         List<String> dadosPessoais = new ArrayList<>();
         List<String> sexoMasculino = new ArrayList<>();
         List<String> sexoFeminino = new ArrayList<>();
@@ -43,5 +40,10 @@ public class CadastroDePessoas {
         System.out.println("Exibindo informações cadastradas:");
         System.out.println("Sexo Masculino: " + sexoMasculino);
         System.out.println("Sexo Feminino: " + sexoFeminino);
+    
     }
+
 }
+    
+
+
