@@ -18,8 +18,20 @@ public class Conversao {
         long num6l = num5l;
         System.out.println("testando long " + num5l);
         System.out.println("testando conersão long para short " + num6l);
+        System.out.println("a conversão ocorreu de maneira adequada, de primitivo para wrapper, desde que respeite o limite de characters.");
         
+      /*  Long num10l = 1355194161961998l; 
+        System.out.println("testando " + num10l);
+        short num11 = (short) num10l;
+        System.out.println("testando " + num11);
+        a conversão a cima n funciona
+        */
         
-
+        long num10l = 1355194161961998l; 
+        System.out.println("antes de converter para short  " + num10l);
+        short num11 = (short) num10l;
+        System.out.println("apos a conversão " + num11);
+        System.out.println("de primitivo para primitivo a conversão ocorre, o casting faz com que aconteça,"
+        		+ " mas quando se trata de wrapper para primitivo, o casting n funciona e o código trava.");
     }
 }
