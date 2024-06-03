@@ -75,7 +75,7 @@ public class App {
     }
 
     private static void cadastrar(String dados) {
-        String[] dadosSeparados = dados.split(",");
+        String[] dadosSeparados = dados.split("\\s*,\\s*");
         if (dadosSeparados.length != 7) {
             JOptionPane.showMessageDialog(null, "Dados incompletos. Por favor, forneça todos os campos: Nome, Cpf, Telefone, Endereço, Número, Cidade, Estado",
                     "Erro", JOptionPane.ERROR_MESSAGE);
@@ -100,7 +100,7 @@ public class App {
     }
 
     private static void alterar(String dados) {
-        String[] dadosSeparados = dados.split(",");
+        String[] dadosSeparados = dados.split("\\s*,\\s*");
         if (dadosSeparados.length != 7) {
             JOptionPane.showMessageDialog(null, "Dados incompletos. Por favor, forneça todos os campos: Nome, Cpf, Telefone, Endereço, Número, Cidade, Estado",
                     "Erro", JOptionPane.ERROR_MESSAGE);
