@@ -32,6 +32,6 @@ public class Conversao {
         short num11 = (short) num10l;
         System.out.println("apos a conversão " + num11);
         System.out.println("de primitivo para primitivo a conversão ocorre, o casting faz com que aconteça,"
-        		+ " mas quando se trata de wrapper para primitivo, o casting n funciona e o código trava.");
+        		+ " mas quando se trata de wrapper para primitivo, o casting não funciona e o código trava. Necessário respeitar os limites de cada tipo.");
     }
 }
