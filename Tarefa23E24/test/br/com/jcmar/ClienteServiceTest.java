@@ -1,7 +1,10 @@
 package br.com.jcmar;
 
+import br.com.jcmar.dao.ClienteDao;
 import br.com.jcmar.dao.ClienteDaoMock;
 import br.com.jcmar.dao.IClienteDao;
+import br.com.jcmar.service.ClienteService;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class ClienteServiceTest {
