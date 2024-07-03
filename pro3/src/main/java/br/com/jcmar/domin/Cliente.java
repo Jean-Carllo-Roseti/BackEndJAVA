@@ -1,8 +1,13 @@
 package br.com.jcmar.domin;
 
+
 public class Cliente {
 
     private Long id;
+
+    private String codigo;
+
+    private String nome;
 
     public Long getId() {
         return id;
@@ -10,14 +15,6 @@ public class Cliente {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
     }
 
     public String getCodigo() {
@@ -28,7 +25,13 @@ public class Cliente {
         this.codigo = codigo;
     }
 
-    private String nome;
+    public String getNome() {
+        return nome;
+    }
 
-    private String codigo;
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+
 }
