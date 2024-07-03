@@ -33,6 +33,9 @@ public class Cliente implements Persistente {
     @ColunaTabela(dbName = "estado", setJavaName = "setEstado")
     private String estado;
 
+    @ColunaTabela(dbName = "idade", setJavaName = "setIdade")
+    private String idade;
+
     public String getNome() {
         return nome;
     }
@@ -80,6 +83,12 @@ public class Cliente implements Persistente {
     }
     public void setId(Long id) {
         this.id = id;
+    }
+    public String getIdade() {
+        return idade;
+    }
+    public void setIdade(String idade) {
+        this.idade = idade;
     }
 
 }
