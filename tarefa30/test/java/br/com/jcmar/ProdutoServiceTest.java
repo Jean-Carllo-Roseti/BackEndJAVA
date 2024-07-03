@@ -32,6 +32,7 @@ public class ProdutoServiceTest {
         produto.setDescricao("Produto 1");
         produto.setNome("Produto 1");
         produto.setValor(BigDecimal.TEN);
+        produto.setPeso(BigDecimal.TEN);
     }
 
     @Test
