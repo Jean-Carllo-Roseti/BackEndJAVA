@@ -28,7 +28,6 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
         entityCadastrado.setNumero(entity.getNumero());
         entityCadastrado.setTel(entity.getTel());
         entityCadastrado.setIdade(entity.getIdade());
-
     }
 
     @Override
@@ -50,7 +49,6 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
         stmInsert.setString(6, entity.getEstado());
         stmInsert.setInt(7, entity.getIdade());
         stmInsert.setLong(8, entity.getCpf());
-
     }
 
     @Override
