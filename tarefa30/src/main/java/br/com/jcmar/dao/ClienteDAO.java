@@ -48,7 +48,7 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
         stmInsert.setLong(4, entity.getNumero());
         stmInsert.setString(5, entity.getCidade());
         stmInsert.setString(6, entity.getEstado());
-        stmInsert.setString(7, entity.getIdade());
+        stmInsert.setInt(7, entity.getIdade());
         stmInsert.setLong(8, entity.getCpf());
 
     }
@@ -86,7 +86,7 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
         stmUpdate.setLong(4, entity.getNumero());
         stmUpdate.setString(5, entity.getCidade());
         stmUpdate.setString(6, entity.getEstado());
-        stmUpdate.setString(7, entity.getIdade());
+        stmUpdate.setInt(7, entity.getIdade());
         stmUpdate.setLong(8, entity.getCpf());
     }
 
