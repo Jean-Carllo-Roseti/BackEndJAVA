@@ -87,8 +87,8 @@ public class Cliente implements Persistente {
     public String getIdade() {
         return idade;
     }
-    public void setIdade(String idade) {
-        this.idade = idade;
+    public void setIdade(String end) {
+        this.idade = end;
     }
 
 }
