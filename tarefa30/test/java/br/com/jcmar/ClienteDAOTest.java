@@ -150,7 +150,7 @@ public class ClienteDAOTest {
         cliente1.setEstado("SP");
         cliente1.setNumero(10);
         cliente1.setTel(1199999999L);
-        cliente1.setIdade(16);
+        cliente1.setIdade(12);
         Boolean retorno1 = clienteDao.cadastrar(cliente1);
         assertTrue(retorno1);
 
