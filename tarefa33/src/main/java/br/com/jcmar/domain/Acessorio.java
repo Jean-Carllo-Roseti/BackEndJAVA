@@ -8,7 +8,7 @@ public class Acessorio {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator="acessorio_seq")
-    @SequenceGenerator(name = "acessrio_seq", sequenceName = "sq_acessorio", initialValue = 1, allocationSize = 1)
+    @SequenceGenerator(name = "acessorio_seq", sequenceName = "sq_acessorio", initialValue = 1, allocationSize = 1)
     private Long id;
 
     @Column(name = "CODIGO", nullable = false, length = 10, unique = true)
@@ -18,7 +18,7 @@ public class Acessorio {
     private String alarme;
 
     @Column(name = "AR_CONDICIONADO", nullable = false, length = 10)
-    private String arCondicioando;
+    private String arCondicionado;
 
     @Column(name = "MOLAS_ESPORTIVAS", nullable = false, length = 10)
     private String molasEsportivas;
@@ -26,8 +26,17 @@ public class Acessorio {
     @Column(name = "FAROIS_DE_LED", nullable = false, length = 10)
     private String faroisLed;
 
+    @ManyToOne
+    @JoinColumn(name = "carro_id", foreignKey = @ForeignKey(name = "fk_acessorios_carros"))
+    private Carro carro;
 
-    @OneToMany(mappedBy = "acessorio")
+    public Carro getCarro() {
+        return carro;
+    }
+
+    public void setCarro(Carro carro) {
+        this.carro = carro;
+    }
 
     public Long getId() {
         return id;
@@ -53,12 +62,12 @@ public class Acessorio {
         this.alarme = alarme;
     }
 
-    public String getArCondicioando() {
-        return arCondicioando;
+    public String getArCondicionado() {
+        return arCondicionado;
     }
 
-    public void setArCondicioando(String arCondicioando) {
-        this.arCondicioando = arCondicioando;
+    public void setArCondicionado(String arCondicionado) {
+        this.arCondicionado = arCondicionado;
     }
 
     public String getMolasEsportivas() {

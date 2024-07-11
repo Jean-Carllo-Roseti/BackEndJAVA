@@ -1,6 +1,7 @@
 package br.com.jcmar.domain;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "TB_MARCA")
@@ -19,6 +20,17 @@ public class Marca {
 
     @Column(name = "NACIONALIDADE", nullable = false, length = 15)
     private String nacionalidade;
+
+    @OneToMany(mappedBy = "marca", cascade = CascadeType.ALL)
+    private List<Carro> carros;
+
+    public List<Carro> getCarros() {
+        return carros;
+    }
+
+    public void setCarros(List<Carro> carros) {
+        this.carros = carros;
+    }
 
     public Long getId() {
         return id;

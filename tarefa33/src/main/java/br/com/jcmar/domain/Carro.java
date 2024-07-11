@@ -1,6 +1,7 @@
 package br.com.jcmar.domain;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "TB_CARRO")
@@ -22,6 +23,30 @@ public class Carro {
 
     @Column(name = "MODELO", nullable = false, length = 20)
     private String modelo;
+
+    @ManyToOne
+    @JoinColumn(name = "marca_id", foreignKey = @ForeignKey(name = "fk_carros_marcas"))
+    private Marca marca;
+
+    @OneToMany
+    @JoinColumn(name = "acessorio_id", foreignKey = @ForeignKey(name = "fk_carros-acessorio"))
+    private List<Acessorio> acessorios;
+
+    public Marca getMarca() {
+        return marca;
+    }
+
+    public void setMarca(Marca marca) {
+        this.marca = marca;
+    }
+
+    public List<Acessorio> getAcessorios() {
+        return acessorios;
+    }
+
+    public void setAcessorios(List<Acessorio> acessorios) {
+        this.acessorios = acessorios;
+    }
 
     public Long getId() {
         return id;

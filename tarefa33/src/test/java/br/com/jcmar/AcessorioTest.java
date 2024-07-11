@@ -20,7 +20,7 @@ public class AcessorioTest {
         Acessorio acessorio = new Acessorio();
         acessorio.setAlarme("S");
         acessorio.setCodigo("A1");
-        acessorio.setArCondicioando("N");
+        acessorio.setArCondicionado("N");
         acessorio.setFaroisLed("S");
         acessorio.setMolasEsportivas("N");
         acessorio = acessorioDao.cadastrar(acessorio);
