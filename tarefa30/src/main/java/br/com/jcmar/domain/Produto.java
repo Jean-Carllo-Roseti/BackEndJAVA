@@ -71,11 +71,11 @@ public class Produto implements Persistente {
     }
 
     public BigDecimal getPeso() {
-        return valor;
+        return peso;
     }
 
-    public void setPeso(BigDecimal valor) {
-        this.valor = valor;
+    public void setPeso(BigDecimal peso) {
+        this.peso = peso;
     }
 
 
