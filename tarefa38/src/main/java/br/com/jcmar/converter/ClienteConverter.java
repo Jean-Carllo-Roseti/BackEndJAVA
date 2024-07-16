@@ -12,12 +12,9 @@ import javax.faces.convert.Converter;
 import javax.faces.convert.FacesConverter;
 import javax.inject.Named;
 
-import br.com.rpires.domain.Cliente;
+import br.com.jcmar.domain.Cliente;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 @Named
 @FacesConverter(value = "clienteConverter", forClass = Cliente.class)
 public class ClienteConverter implements Converter {

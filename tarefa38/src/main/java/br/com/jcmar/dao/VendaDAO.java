@@ -8,15 +8,14 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
-import br.com.rpires.dao.generic.GenericDAO;
-import br.com.rpires.domain.Cliente;
-import br.com.rpires.domain.Produto;
-import br.com.rpires.domain.Venda;
-import br.com.rpires.exceptions.DAOException;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import br.com.jcmar.dao.generic.GenericDAO;
+import br.com.jcmar.domain.Cliente;
+import br.com.jcmar.domain.Produto;
+import br.com.jcmar.domain.Venda;
+import br.com.jcmar.exceptions.DAOException;
+import br.com.jcmar.exceptions.TipoChaveNaoEncontradaException;
 
 /**
- * @author rodrigo.pires
  *
  */
 public class VendaDAO extends GenericDAO<Venda, Long> implements IVendaDAO {

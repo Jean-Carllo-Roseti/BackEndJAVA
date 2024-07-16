@@ -7,8 +7,8 @@ import java.util.List;
 
 import javax.persistence.TypedQuery;
 
-import br.com.rpires.dao.generic.GenericDAO;
-import br.com.rpires.domain.Produto;
+import br.com.jcmar.dao.generic.GenericDAO;
+import br.com.jcmar.domain.Produto;
 
 /**
  * @author rodrigo.pires

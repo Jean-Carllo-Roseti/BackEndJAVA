@@ -10,16 +10,13 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import br.com.rpires.domain.Persistente;
-import br.com.rpires.exceptions.DAOException;
-import br.com.rpires.exceptions.MaisDeUmRegistroException;
-import br.com.rpires.exceptions.TableException;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import br.com.jcmar.domain.Persistente;
+import br.com.jcmar.exceptions.DAOException;
+import br.com.jcmar.exceptions.MaisDeUmRegistroException;
+import br.com.jcmar.exceptions.TableException;
+import br.com.jcmar.exceptions.TipoChaveNaoEncontradaException;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class GenericDAO <T extends Persistente, E extends Serializable> implements IGenericDAO <T,E> {
 
 //	protected EntityManagerFactory entityManagerFactory;

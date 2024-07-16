@@ -4,7 +4,6 @@
 package br.com.jcmar.exceptions;
 
 /**
- * @author rodrigo.pires
  *
  */
 public class MaisDeUmRegistroException extends Exception {

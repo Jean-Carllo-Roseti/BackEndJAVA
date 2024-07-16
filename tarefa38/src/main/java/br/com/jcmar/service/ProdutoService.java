@@ -8,12 +8,11 @@ import java.util.List;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
-import br.com.rpires.dao.IProdutoDAO;
-import br.com.rpires.domain.Produto;
-import br.com.rpires.services.generic.GenericService;
+import br.com.jcmar.dao.IProdutoDAO;
+import br.com.jcmar.domain.Produto;
+import br.com.jcmar.services.generic.GenericService;
 
 /**
- * @author rodrigo.pires
  *
  */
 @Stateless

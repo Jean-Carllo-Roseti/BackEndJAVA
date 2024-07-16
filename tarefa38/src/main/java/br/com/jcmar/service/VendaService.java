@@ -6,12 +6,12 @@ package br.com.jcmar.service;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
-import br.com.rpires.dao.IVendaDAO;
-import br.com.rpires.domain.Venda;
-import br.com.rpires.domain.Venda.Status;
-import br.com.rpires.exceptions.DAOException;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
-import br.com.rpires.services.generic.GenericService;
+import br.com.jcmar.dao.IVendaDAO;
+import br.com.jcmar.domain.Venda;
+import br.com.jcmar.domain.Venda.Status;
+import br.com.jcmar.exceptions.DAOException;
+import br.com.jcmar.exceptions.TipoChaveNaoEncontradaException;
+import br.com.jcmar.services.generic.GenericService;
 
 /**
  * @author rodrigo.pires

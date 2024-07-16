@@ -5,8 +5,8 @@ package br.com.jcmar.dao;
 
 import java.util.List;
 
-import br.com.rpires.dao.generic.IGenericDAO;
-import br.com.rpires.domain.Cliente;
+import br.com.jcmar.dao.generic.IGenericDAO;
+import br.com.jcmar.domain.Cliente;
 
 /**
  * @author rodrigo.pires

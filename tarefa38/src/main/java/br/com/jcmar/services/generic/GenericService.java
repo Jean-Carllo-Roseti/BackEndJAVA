@@ -6,12 +6,12 @@ package br.com.jcmar.services.generic;
 import java.io.Serializable;
 import java.util.Collection;
 
-import br.com.rpires.dao.generic.IGenericDAO;
-import br.com.rpires.domain.Persistente;
-import br.com.rpires.exceptions.DAOException;
-import br.com.rpires.exceptions.MaisDeUmRegistroException;
-import br.com.rpires.exceptions.TableException;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import br.com.jcmar.dao.generic.IGenericDAO;
+import br.com.jcmar.domain.Persistente;
+import br.com.jcmar.exceptions.DAOException;
+import br.com.jcmar.exceptions.MaisDeUmRegistroException;
+import br.com.jcmar.exceptions.TableException;
+import br.com.jcmar.exceptions.TipoChaveNaoEncontradaException;
 
 /**
  * @author rodrigo.pires

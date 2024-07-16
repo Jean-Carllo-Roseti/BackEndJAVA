@@ -3,13 +3,12 @@
  */
 package br.com.jcmar.service;
 
-import br.com.rpires.dao.generic.IGenericDAO;
-import br.com.rpires.domain.Venda;
-import br.com.rpires.exceptions.DAOException;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import br.com.jcmar.dao.generic.IGenericDAO;
+import br.com.jcmar.domain.Venda;
+import br.com.jcmar.exceptions.DAOException;
+import br.com.jcmar.exceptions.TipoChaveNaoEncontradaException;
 
 /**
- * @author rodrigo.pires
  *
  */
 public interface IVendaService extends IGenericDAO<Venda, Long>{

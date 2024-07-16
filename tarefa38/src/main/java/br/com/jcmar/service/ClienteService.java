@@ -8,12 +8,12 @@ import java.util.List;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
-import br.com.rpires.dao.IClienteDAO;
-import br.com.rpires.domain.Cliente;
-import br.com.rpires.exceptions.DAOException;
-import br.com.rpires.exceptions.MaisDeUmRegistroException;
-import br.com.rpires.exceptions.TableException;
-import br.com.rpires.services.generic.GenericService;
+import br.com.jcmar.dao.IClienteDAO;
+import br.com.jcmar.domain.Cliente;
+import br.com.jcmar.exceptions.DAOException;
+import br.com.jcmar.exceptions.MaisDeUmRegistroException;
+import br.com.jcmar.exceptions.TableException;
+import br.com.jcmar.services.generic.GenericService;
 
 /**
  * @author rodrigo.pires

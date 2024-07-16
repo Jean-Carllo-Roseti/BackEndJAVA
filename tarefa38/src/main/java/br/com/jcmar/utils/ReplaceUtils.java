@@ -4,7 +4,6 @@
 package br.com.jcmar.utils;
 
 /**
- * @author rodrigo.pires
  *
  */
 public class ReplaceUtils {

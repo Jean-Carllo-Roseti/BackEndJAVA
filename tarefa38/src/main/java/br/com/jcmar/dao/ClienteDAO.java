@@ -7,11 +7,10 @@ import java.util.List;
 
 import javax.persistence.TypedQuery;
 
-import br.com.rpires.dao.generic.GenericDAO;
-import br.com.rpires.domain.Cliente;
+import br.com.jcmar.dao.generic.GenericDAO;
+import br.com.jcmar.domain.Cliente;
 
 /**
- * @author rodrigo.pires
  *
  */
 public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO {
