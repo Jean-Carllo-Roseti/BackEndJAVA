@@ -11,7 +11,6 @@ import br.com.jcmar.dao.generic.GenericDAO;
 import br.com.jcmar.domain.Produto;
 
 /**
- * @author rodrigo.pires
  *
  */
 public class ProdutoDAO extends GenericDAO<Produto, String> implements IProdutoDAO {

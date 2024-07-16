@@ -25,7 +25,6 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 /**
- * @author rodrigo.pires
  *
  */
 @Entity

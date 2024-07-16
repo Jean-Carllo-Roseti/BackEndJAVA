@@ -14,7 +14,6 @@ import br.com.jcmar.exceptions.TipoChaveNaoEncontradaException;
 import br.com.jcmar.services.generic.GenericService;
 
 /**
- * @author rodrigo.pires
  *
  */
 @Stateless

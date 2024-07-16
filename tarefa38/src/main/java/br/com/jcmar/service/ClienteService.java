@@ -16,7 +16,6 @@ import br.com.jcmar.exceptions.TableException;
 import br.com.jcmar.services.generic.GenericService;
 
 /**
- * @author rodrigo.pires
  *
  */
 @Stateless

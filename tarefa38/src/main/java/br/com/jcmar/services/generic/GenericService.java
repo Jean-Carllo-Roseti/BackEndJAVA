@@ -14,7 +14,6 @@ import br.com.jcmar.exceptions.TableException;
 import br.com.jcmar.exceptions.TipoChaveNaoEncontradaException;
 
 /**
- * @author rodrigo.pires
  *
  */
 public abstract class GenericService<T extends Persistente, E extends Serializable> 

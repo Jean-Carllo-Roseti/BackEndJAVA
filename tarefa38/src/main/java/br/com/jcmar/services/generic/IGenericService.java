@@ -13,7 +13,6 @@ import br.com.jcmar.exceptions.TableException;
 import br.com.jcmar.exceptions.TipoChaveNaoEncontradaException;
 
 /**
- * @author rodrigo.pires
  *
  */
 public interface IGenericService <T extends Persistente, E extends Serializable> {
