@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4eb12f5b-1d7e-4b73-805e-aae2840e7320" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Projeto2/src/test/java/br/com/jcmar/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto2/src/test/java/br/com/jcmar/ClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarefa35/src/test/java/br/com/jcmar/AllTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tarefa35/src/test/java/br/com/jcmar/AllTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro3/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pro3/src/main/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro3/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pro3/src/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tarefa33/src/main/java/br/com/jcmar/dao/AcessorioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tarefa33/src/main/java/br/com/jcmar/dao/AcessorioDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tarefa33/src/main/java/br/com/jcmar/domain/Acessorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tarefa33/src/main/java/br/com/jcmar/domain/Acessorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tarefa33/src/main/java/br/com/jcmar/domain/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tarefa33/src/main/java/br/com/jcmar/domain/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tarefa33/src/test/java/br/com/jcmar/CarroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tarefa33/src/test/java/br/com/jcmar/CarroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tarefa36/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tarefa36/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tarefa36/src/test/java/br/com/jcmar/jpa/AllTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tarefa36/src/test/java/br/com/jcmar/jpa/AllTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testePush/src/br/com/jcmar/test/br/com/rpires/ContratoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../testePush/src/br/com/jcmar/test/br/com/rpires/ContratoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testePush/testePush.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../testePush/testePush.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2jHtUbzhfriRdkg8EVjE3FQqKWI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4eb12f5b-1d7e-4b73-805e-aae2840e7320" name="Changes" comment="" />
+      <created>1721055848685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721055848685</updated>
+    </task>
+    <servers />
+  </component>
+</project>

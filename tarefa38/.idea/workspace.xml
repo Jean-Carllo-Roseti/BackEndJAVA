@@ -9,18 +9,7 @@
       <change beforePath="$PROJECT_DIR$/../tafefa38/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tafefa38/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tafefa38/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jcmar/dao/IClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jcmar/dao/IClienteDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jcmar/dao/IProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jcmar/dao/IProdutoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jcmar/dao/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jcmar/dao/ProdutoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jcmar/domain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jcmar/domain/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jcmar/domain/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jcmar/domain/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jcmar/domain/ProdutoQuantidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jcmar/domain/ProdutoQuantidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jcmar/domain/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jcmar/domain/Venda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jcmar/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jcmar/service/ClienteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jcmar/service/IProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jcmar/service/IProdutoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jcmar/service/VendaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jcmar/service/VendaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jcmar/services/generic/GenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jcmar/services/generic/GenericService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jcmar/services/generic/IGenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jcmar/services/generic/IGenericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
